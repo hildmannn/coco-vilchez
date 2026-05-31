@@ -7,12 +7,12 @@
   --azul-noche: #0A1A2E;
   --azul-noche-deep: #060F1C;
   --azul-electrico: #0057B8;
-  --rojo-potencia: #CC2222;
+  --rojo-potencia: #0057B8;
   --blanco: #FFFFFF;
   --gris-luminoso: #E0E4EA;
 
-  /* Accent is tweakable; defaults to Rojo Potencia */
-  --accent: #CC2222;
+  /* Accent is tweakable; defaults to Azul Eléctrico */
+  --accent: #0057B8;
   --accent-ink: #FFFFFF;
 
   /* Graph paper (tweakable) */
@@ -1007,7 +1007,7 @@ ul { margin: 0; padding: 0; list-style: none; }
   color: var(--gris-luminoso);
   transition: border-color .2s, color .2s, background .2s;
 }
-.footer-social a:hover { border-color: var(--accent); color: #fff; background: rgba(204,34,34,0.15); }
+.footer-social a:hover { border-color: var(--accent); color: #fff; background: rgba(0,87,184,0.15); }
 .footer-social svg { width: 18px; height: 18px; }
 .footer-bar {
   border-top: 1px solid rgba(255,255,255,0.06);

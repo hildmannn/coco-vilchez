@@ -12,7 +12,7 @@ const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
   "circuit": true,
   "gridOpacity": 0.07,
   "gridSize": 26,
-  "accent": "#CC2222",
+  "accent": "#0057B8",
   "sketchDensity": "media"
 }/*EDITMODE-END*/;
 
@@ -242,7 +242,7 @@ function App() {
 
         <TweakSection label="Acento" />
         <TweakColor label="Color de acento" value={t.accent}
-                    options={["#CC2222", "#E8590C", "#0057B8", "#1F9D55"]}
+                    options={["#0057B8", "#0099FF", "#2563EB", "#1F9D55"]}
                     onChange={(v) => setTweak("accent", v)} />
       </TweaksPanel>
     </React.Fragment>
